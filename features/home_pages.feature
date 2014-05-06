@@ -9,7 +9,7 @@ Feature: Viewer visits the Home Page
 
   Scenario: Find heading on home page
     Given I am on the home page
-    Then I should see "MY APP" in the selector "h1"
+    Then in the selector "h1" I should see "MY APP" 
 
   Scenario: Find the link to the form
     Given I am on the home page
